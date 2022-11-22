@@ -20,14 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module alu 
+module Alu 
 #(
     parameter BUS_SIZE = 8
 )
 (
-    input wire [BUS_SIZE-1:0] A, 
-    input wire [BUS_SIZE-1:0] B,
-    input wire [5:0] Op,
+    input wire [BUS_SIZE-1:0] i_A, 
+    input wire [BUS_SIZE-1:0] i_B,
+    input wire [5:0] i_Op,
     output wire  [BUS_SIZE-1:0] o_salida
 );
 
@@ -35,31 +35,31 @@ module alu
 
 always @(*) 
     begin
-        case(Op)
+        case(i_Op)
             // ADD
             6'b100000:
-                temporal = A + B;
+                temporal = i_A + i_B;
             // SUB
             6'b100010:
-                temporal = A - B;
+                temporal = i_A - i_B;
             // AND
             6'b100100:
-                temporal = A & B;
+                temporal = i_A & i_B;
             // OR
             6'b100101:
-                temporal = A | B;
+                temporal = i_A | i_B;
             // XOR
             6'b100110:
-                temporal = A ^ B;
+                temporal = i_A ^ i_B;
             // SRA
             6'b000011:
-                temporal = $signed(A) >>> B;
+                temporal = $signed(i_A) >>> i_B;
             // SRL
             6'b000010:
-                temporal = A>>B;
+                temporal = i_A >> i_B;
             // NOR
             6'b100111:
-                temporal = ~(A | B);  
+                temporal = ~(i_A | i_B);  
             //DEFAULT
             default:
                 temporal = {1'b1, {5{1'b0}} };

@@ -1,0 +1,13 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sim_1/new/tb_UART.v,1667917507,verilog,,,,tb_UART,,,,,,,,
+C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sim_1/new/tb_alu.v,1666738820,verilog,,,,tb_alu,,,,,,,,
+C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sources_1/new/GeneradorDeBaudios.v,1667505884,verilog,,C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sources_1/new/Interface.v,,GeneradorDeBaudios,,,,,,,,
+C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sources_1/new/Interface.v,1667506259,verilog,,C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sources_1/new/Receptor.v,,Interface,,,,,,,,
+C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sources_1/new/Receptor.v,1667505884,verilog,,C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sources_1/new/Transmisor.v,,Receptor,,,,,,,,
+C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sources_1/new/Transmisor.v,1667505883,verilog,,C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sources_1/new/UART.v,,Transmisor,,,,,,,,
+C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sources_1/new/UART.v,1667506255,verilog,,C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sources_1/new/alu.v,,UART,,,,,,,,
+C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sources_1/new/alu.v,1667505680,verilog,,C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sim_1/new/tb_UART.v,,Alu,,,,,,,,

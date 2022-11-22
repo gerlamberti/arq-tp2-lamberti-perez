@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov 16 18:21:42 2022
+# Process ID: 16628
+# Current directory: C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.runs/impl_1
+# Command line: vivado.exe -log Receptor.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Receptor.tcl -notrace
+# Log file: C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.runs/impl_1/Receptor.vdi
+# Journal file: C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.runs/impl_1\vivado.jou
+# Running On: DESKTOP-GRML, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 8433 MB
+#-----------------------------------------------------------
+source Receptor.tcl -notrace

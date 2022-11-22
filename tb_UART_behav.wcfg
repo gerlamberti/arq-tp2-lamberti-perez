@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_UART_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_UART" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="2,501.000001 us"></ZoomEndTime>
+      <Cursor1Time time="181.840045 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="279"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb_UART/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/ModuloUART_test/generador_ticks/senial_tick" type="logic">
+      <obj_property name="ElementShortName">senial_tick</obj_property>
+      <obj_property name="ObjectShortName">senial_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/ancho_dato" type="array">
+      <obj_property name="ElementShortName">ancho_dato[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ancho_dato[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/BAUD_RATE" type="array">
+      <obj_property name="ElementShortName">BAUD_RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BAUD_RATE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/FREC_CLOCK_MHZ" type="array">
+      <obj_property name="ElementShortName">FREC_CLOCK_MHZ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FREC_CLOCK_MHZ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/Entrada_RX" type="logic">
+      <obj_property name="ElementShortName">Entrada_RX</obj_property>
+      <obj_property name="ObjectShortName">Entrada_RX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/ModuloUART_test/receptor/registroDatos_actual" type="array">
+      <obj_property name="ElementShortName">registroDatos_actual[7:0]</obj_property>
+      <obj_property name="ObjectShortName">registroDatos_actual[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/ModuloUART_test/receptor/senial_generadorTick" type="logic">
+      <obj_property name="ElementShortName">senial_generadorTick</obj_property>
+      <obj_property name="ObjectShortName">senial_generadorTick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/ModuloUART_test/interface/alu/i_A" type="array">
+      <obj_property name="ElementShortName">i_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_A[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/ModuloUART_test/interface/alu/i_B" type="array">
+      <obj_property name="ElementShortName">i_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_B[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/ModuloUART_test/interface/alu/i_Op" type="array">
+      <obj_property name="ElementShortName">i_Op[5:0]</obj_property>
+      <obj_property name="ObjectShortName">i_Op[5:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/ModuloUART_test/interface/alu/o_salida" type="array">
+      <obj_property name="ElementShortName">o_salida[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_salida[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/Salida_TX" type="logic">
+      <obj_property name="ElementShortName">Salida_TX</obj_property>
+      <obj_property name="ObjectShortName">Salida_TX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/ModuloUART_test/transmisor/comienzo_TX" type="logic">
+      <obj_property name="ElementShortName">comienzo_TX</obj_property>
+      <obj_property name="ObjectShortName">comienzo_TX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/ModuloUART_test/interface/senial_finTransmicion" type="logic">
+      <obj_property name="ElementShortName">senial_finTransmicion</obj_property>
+      <obj_property name="ObjectShortName">senial_finTransmicion</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_UART/ModuloUART_test/transmisor/registroDatos_actual" type="array">
+      <obj_property name="ElementShortName">registroDatos_actual[7:0]</obj_property>
+      <obj_property name="ObjectShortName">registroDatos_actual[7:0]</obj_property>
+   </wvobject>
+</wave_config>

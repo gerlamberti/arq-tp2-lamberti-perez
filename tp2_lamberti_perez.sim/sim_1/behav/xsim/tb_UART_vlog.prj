@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../tp2_lamberti_perez.srcs/sources_1/new/GeneradorDeBaudios.v" \
+"../../../../tp2_lamberti_perez.srcs/sources_1/new/Interface.v" \
+"../../../../tp2_lamberti_perez.srcs/sources_1/new/Receptor.v" \
+"../../../../tp2_lamberti_perez.srcs/sources_1/new/Transmisor.v" \
+"../../../../tp2_lamberti_perez.srcs/sources_1/new/UART.v" \
+"../../../../tp2_lamberti_perez.srcs/sources_1/new/alu.v" \
+"../../../../tp2_lamberti_perez.srcs/sim_1/new/tb_UART.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

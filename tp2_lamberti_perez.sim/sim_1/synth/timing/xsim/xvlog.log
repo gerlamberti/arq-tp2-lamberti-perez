@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.sim/sim_1/synth/timing/xsim/tb_UART_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Alu
+INFO: [VRFC 10-311] analyzing module GeneradorDeBaudios
+INFO: [VRFC 10-311] analyzing module Interface
+INFO: [VRFC 10-311] analyzing module Receptor
+INFO: [VRFC 10-311] analyzing module Transmisor
+INFO: [VRFC 10-311] analyzing module UART
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/germa/Desktop/Facultad/ArqCom/Practico/TP2/tp2_lamberti_perez/tp2_lamberti_perez.srcs/sim_1/new/tb_UART.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_UART
